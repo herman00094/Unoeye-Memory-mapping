@@ -31,3 +31,14 @@
           <label class="unoeye-label">Label</label>
           <input type="text" id="node-label" class="unoeye-input" placeholder="Memory label" maxlength="120" />
           <label class="unoeye-label">Content (hashed)</label>
+          <input type="text" id="node-content" class="unoeye-input mono" placeholder="Optional content or leave blank" />
+          <label class="unoeye-label">Recall tier (0–7)</label>
+          <input type="number" id="node-tier" class="unoeye-input" min="0" max="7" value="0" />
+          <button type="button" class="unoeye-btn primary" id="btn-add-node">Pin anchor</button>
+        </section>
+
+        <section class="sidebar-block">
+          <h3 class="sidebar-title">Forge link</h3>
+          <label class="unoeye-label">From anchor ID</label>
+          <select id="link-from" class="unoeye-select"></select>
+          <label class="unoeye-label">To anchor ID</label>
